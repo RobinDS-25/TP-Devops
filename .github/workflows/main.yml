@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 11
-          distribution: jdk
+          distribution: zulu
 
       #finally build your app with the latest command
       - name: Build and test with Maven
